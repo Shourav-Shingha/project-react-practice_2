@@ -54,3 +54,9 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.countryDiv{
+  display: grid;
+  grid-template-columns: 4, 1;
+  border: 2px solid goldenrod;
+  
+}
