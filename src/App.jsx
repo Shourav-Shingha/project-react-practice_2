@@ -9,7 +9,7 @@ const Datapromise = fetch("https://openapi.programming-hero.com/api/all").then(
 function App() {
   return (
     <>
-      <Suspense>
+      <Suspense fallback={<h1>loading.....</h1>}>
         <Countrys datapromise={Datapromise}></Countrys>
       </Suspense>
     </>
